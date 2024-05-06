@@ -82,3 +82,9 @@ cardLink.addEventListener("click", (event) => {
   overlay.style.opacity = 0;
   overlay.style.visibility = "hidden";
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Initialize AOS after DOM is ready
+  AOS.init();
+});

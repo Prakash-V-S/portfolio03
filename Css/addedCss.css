@@ -9,6 +9,11 @@
   overflow-x: hidden;
 }
 
+:root {
+  --first-color: #4070f4;
+  --second-color: #0e2431;
+  --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+}
 
 body #contact-left #contact-line {
   background: #000;
@@ -50,15 +55,6 @@ body main #contact button:hover {
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
 .red {
   background: #b82424be;
 }
@@ -67,12 +63,9 @@ body main #contact button:hover {
   border: 2px solid #ce2727 !important;
 }
 
-
-
 #container {
   padding: 1rem;
 }
-
 
 #contact-left {
   position: fixed;
@@ -104,12 +97,12 @@ body main #contact button:hover {
 }
 
 .main1 {
-    /* position: relative; */
-    padding: 1rem;
-    width: 85%;
-    margin: 0 auto;
-  }
-  
+  /* position: relative; */
+  padding: 1rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
 main .block {
   padding: 2rem;
   margin-bottom: 2rem;
@@ -125,13 +118,12 @@ main .block p {
   padding: 1rem;
 }
 
-
 main #skills .skill-block .skill-line div {
   padding: 0.2rem;
 }
 main #skills .skill-block .skill-line span {
-  font-size: .8rem;
-  padding-right: .3rem;
+  font-size: 0.8rem;
+  padding-right: 0.3rem;
 }
 
 main #skills .skill-block .skill-line #skill-line-html5 {
@@ -233,7 +225,6 @@ main #project #project-all .project-block {
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 1rem;
-  
 }
 
 main #project #project-all .project-block img {
@@ -275,7 +266,6 @@ main
   .project-block-cont
   .project-block-links-source {
   padding: 1rem;
-  
 }
 
 main
@@ -511,7 +501,6 @@ main #contact #contact-block button {
   border-radius: 10px;
 }
 
-
 .animaaation {
   -webkit-animation-name: wipe-enter;
   animation-name: wipe-enter;
@@ -542,8 +531,6 @@ main #contact #contact-block button {
     width: 50%;
   }
 }
-
-
 
 @keyframes cursorAnimation2 {
   0% {
@@ -786,9 +773,43 @@ main #contact #contact-block button {
     /* text-align: right; */
   }
 
-  .about1 p{
-    text-align:left;
+  .about1 p {
+    text-align: left;
   }
+}
 
-  
+/* degree card */
+
+.degree-card {
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
+  /* transition: transform 0.3s ease-in-out; */
+}
+.degree-card:hover {
+  /* box-shadow: 0px 0px 99px -78px #4070f4; */
+  background-color: #4070f4;
+  color: lavenderblush;
+}
+
+.degree-card:hover .degree-title {
+  color: white;
+}
+
+/* Degree title styling */
+.degree-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--first-color);
+}
+
+/* Degree details styling */
+.degree-details {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
