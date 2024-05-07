@@ -780,6 +780,11 @@ main #contact #contact-block button {
   .right_contact{
     margin-top: 5%;
   }
+
+  .right-contact-img {
+    width: 250px;
+    margin-top: 10%;
+  }
 }
 
 /* degree card */
