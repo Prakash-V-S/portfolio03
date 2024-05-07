@@ -776,6 +776,10 @@ main #contact #contact-block button {
   .about1 p {
     text-align: left;
   }
+
+  .right_contact{
+    margin-top: 5%;
+  }
 }
 
 /* degree card */
