@@ -800,6 +800,7 @@ main #contact #contact-block button {
   color: white;
 }
 
+
 /* Degree title styling */
 .degree-title {
   font-size: 20px;
@@ -812,4 +813,9 @@ main #contact #contact-block button {
 .degree-details {
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+
+.dark .degree-card{
+  color: #000;
 }

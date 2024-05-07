@@ -400,7 +400,7 @@ img {
 }
 
 .skill_js {
-  width: 65%;
+  width: 75%;
 }
 
 .skill_boostrap {
@@ -408,17 +408,23 @@ img {
 }
 
 .skill_reactjs {
-  width: 75%;
+  width: 85%;
+}
+.skill_reduxjs {
+  width: 60%;
 }
 
-.skill_nodejs,
+.skill_nodejs{
+  width: 65%;
+}
+
 .skill_mongodb,
 .skill_aws {
   width: 50%;
 }
 
 .skill_mysql {
-  width: 55%;
+  width: 60%;
 }
 
 .skill_git {
@@ -528,8 +534,12 @@ img {
   margin-left: auto;
 }
 
+/* .right_contact{
+  
+} */
 .right-contact-img {
   width: 250px;
+  margin-top: 40%;
 }
 
 .contact_social {
@@ -571,11 +581,12 @@ img {
     justify-content: center;
     flex-direction: column;
   }
-  .right-contact,
+  .right_contact,
   .left_contact {
     width: 100%;
     text-align: center;
   }
+
   .work_container {
     display: flex;
     flex-wrap: wrap;
@@ -864,7 +875,7 @@ body.light {
 
 .home_img,
 .about_img,
-.skill1_img {
+.skill_img {
   animation: moveUpDown 2s ease-in-out infinite;
 }
 
